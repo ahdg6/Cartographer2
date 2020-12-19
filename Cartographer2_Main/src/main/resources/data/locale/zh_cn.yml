@@ -11,7 +11,7 @@
 # - "随机信息 3"
 # 如果这些信息将被发送给玩家，那么语言文件应该支持 placeholders 占位符变量。
 # 彩色文本请使用标识符 (§) 。
-# 如果标识符无用，并显示为乱码，那么请使用 \u00a7 替代。
+# 如果标识符无法正确地应用，或者出现乱码，那么请使用 \u00a7 替代。
 # Translated by: ahdg6
 name: "简体中文 (中国)"
 language: "简体中文"
@@ -133,10 +133,10 @@ messages:
           help-0: "§b=== Cartographer 附加模块命令 ==="
           help-1: "§e/cartographer module list§6 - 查看所有处于加载状态中的附加模块"
           help-2: "§e/cartographer module reload§6 - 重新加载所有附加模块"
-          help-3: "§e/cartographer module enable <module>§6 - 启用一个附加模块"
-          help-4: "§e/cartographer module disable <module>§6 - 禁用一个附加模块"
-          help-5: "§e/cartographer module load <module>§6 - 加载一个附加模块"
-          help-6: "§e/cartographer module unload <module>§6 - 卸载一个附加模块"
+          help-3: "§e/cartographer module enable <附加模块>§6 - 启用一个附加模块"
+          help-4: "§e/cartographer module disable <附加模块>§6 - 禁用一个附加模块"
+          help-5: "§e/cartographer module load <附加模块>§6 - 加载一个附加模块"
+          help-6: "§e/cartographer module unload <附加模块>§6 - 卸载一个附加模块"
           help-7: "§e/cartographer module help§6 - 展现可用模块命令"
           help-8: ""
           help-9: ""
@@ -173,7 +173,7 @@ messages:
           help-1: "§e/cartographer settings set <设置项> <值>§6 - 设定一个设置项的数据值"
           help-2: "§e/cartographer settings get <设置项>§6 - 获取设置项的数据值"
           help-3: "§e/cartographer settings setother <玩家> <设置项> <值>§6 - 为一名玩家设定设置项的数据值"
-          help-4: "§e/cartographer settings getother <玩家> <property>§6 - 获取指定玩家设置项的数据值"
+          help-4: "§e/cartographer settings getother <玩家> <设置项>§6 - 获取指定玩家设置项的数据值"
           help-5: ""
           help-6: ""
           help-7: ""
